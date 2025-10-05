@@ -1,0 +1,366 @@
+
+/* Large Tablets and Small Laptops (1024px and below) */
+@media screen and (max-width: 1024px) {
+    .nav ul {
+        left: 650px;
+    }
+
+    .section-main h2 {
+        left: 400px;
+        font-size: 24px;
+    }
+
+    .section-main p {
+        left: 450px;
+        font-size: 16px;
+    }
+
+    .section-main a {
+        left: 470px;
+    }
+
+    .service-box {
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 20px;
+        height: 830px;
+    }
+
+    .service-card {
+        width: 45%;
+        min-width: 200px;
+    }
+
+    .section-about img {
+        width: 300px;
+        height: 225px;
+    }
+}
+
+/* Tablets (768px and below) */
+@media screen and (max-width: 768px) {
+    .page-container {
+        grid-template-rows: auto 1fr auto;
+    }
+
+    .header {
+        height: auto;
+        padding: 15px 20px;
+    }
+
+    .logo {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .nav ul {
+        position: static;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        margin: 5px 10px;
+        font-size: 14px;
+    }
+
+    /* Home Page */
+    .section-main {
+        height: 500px;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .section-main h2 {
+        position: static;
+        text-align: center;
+        padding-top: 150px;
+        font-size: 22px;
+    }
+
+    .section-main p {
+        position: static;
+        text-align: center;
+        padding: 20px;
+        font-size: 16px;
+    }
+
+    .section-main a {
+        position: static;
+        display: block;
+        width: fit-content;
+        margin: 20px auto;
+    }
+
+    .service-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-card {
+        width: 80%;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .section-about img {
+        float: none;
+        display: block;
+        margin: 0 auto 20px;
+        width: 100%;
+        max-width: 400px;
+        height: auto;
+    }
+
+    /* Contact Page */
+    .content {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .section-contact {
+        padding: 20px 10px;
+    }
+
+    .contact {
+        width: 95%;
+    }
+
+    .main-heading h2 {
+        font-size: 32px;
+    }
+
+    .main-heading p {
+        font-size: 16px;
+        padding: 0 15px;
+    }
+}
+
+/* Mobile Devices (480px and below) */
+@media screen and (max-width: 480px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .logo {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .nav ul {
+        padding: 0;
+    }
+
+    .nav ul li {
+        display: block;
+        margin: 5px 0;
+        padding: 8px;
+    }
+
+    /* Home Page */
+    .section-main {
+        height: 400px;
+    }
+
+    .section-main h2 {
+        padding-top: 100px;
+        font-size: 18px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .section-main p {
+        font-size: 14px;
+        padding: 15px;
+    }
+
+    .section-main a {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    .section-box {
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .section-box h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .service-card {
+        width: 90%;
+    }
+
+    .service-card h3 {
+        font-size: 18px;
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .service-card p {
+        height: auto;
+        padding: 15px 10px;
+    }
+
+    .section-about {
+        margin: 10px 0;
+    }
+
+    .section-about h2 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    .section-about h3 {
+        font-size: 18px;
+    }
+
+    .section-about p {
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .section-about img {
+        width: 100%;
+        padding: 10px 5px;
+    }
+
+    /* Contact Page */
+    .section-main h2 {
+        position: static;
+        text-align: center;
+        padding-top: 80px;
+    }
+
+    .main-heading {
+        margin-bottom: 30px;
+    }
+
+    .main-heading h2 {
+        font-size: 24px;
+    }
+
+    .main-heading p {
+        font-size: 14px;
+    }
+
+    .main-input {
+        padding: 12px;
+        font-size: 14px;
+    }
+
+    textarea.main-input {
+        min-height: 120px;
+    }
+
+    form input[type="submit"] {
+        width: 100%;
+        padding: 12px;
+    }
+
+    .info h4 {
+        font-size: 18px;
+    }
+
+    .phone,
+    address {
+        font-size: 14px;
+    }
+
+    .footer {
+        height: auto;
+        padding: 15px 10px;
+        font-size: 12px;
+    }
+}
+
+/* Extra Small Devices (360px and below) */
+@media screen and (max-width: 360px) {
+    .logo {
+        font-size: 16px;
+    }
+
+    .nav ul li {
+        font-size: 13px;
+    }
+
+    .section-main {
+        height: 350px;
+    }
+
+    .section-main h2 {
+        font-size: 16px;
+        padding-top: 80px;
+    }
+
+    .section-main p {
+        font-size: 13px;
+    }
+
+    .section-main a {
+        font-size: 12px;
+        padding: 6px 15px;
+    }
+
+    .service-card {
+        width: 95%;
+    }
+
+    .main-heading h2 {
+        font-size: 20px;
+    }
+
+    .footer {
+        font-size: 11px;
+    }
+}
+
+/* Landscape Orientation for Mobile */
+@media screen and (max-height: 500px) and (orientation: landscape) {
+    .section-main {
+        height: 300px;
+    }
+
+    .section-main h2 {
+        padding-top: 60px;
+        font-size: 16px;
+    }
+
+    .section-main p {
+        padding: 10px;
+        font-size: 13px;
+    }
+
+    .header {
+        padding: 8px 15px;
+    }
+
+    .nav ul li {
+        display: inline-block;
+        margin: 2px 8px;
+        padding: 5px;
+    }
+}
+
+/* Prevent horizontal scrolling */
+body {
+    overflow-x: hidden;
+    max-width: 100%;
+}
+
+* {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Ensure smooth transitions */
+* {
+    transition: all 0.3s ease;
+}

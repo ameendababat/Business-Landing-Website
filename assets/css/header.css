@@ -1,0 +1,14 @@
+.header {
+    grid-area: header;
+    background: linear-gradient(135deg, #1a2e7a, #2a4b8c);
+    color: white;
+    padding: 5px 20px;
+    height: 45px;
+}
+
+.logo {
+    width: fit-content;
+}
+.logo span:hover {
+    color: #fec76f;
+}

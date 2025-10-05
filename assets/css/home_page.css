@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.page-container {
+    line-height: 1.6;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    width: 100%;
+}
+
+.nav ul {
+    list-style: none;
+    position: absolute;
+    left: 940px;
+    top: 10px;
+}
+
+.nav ul li {
+    display: inline;
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.main-content{
+    grid-area: main;
+    display: grid;
+    grid-template-areas: 
+    "section-main"
+    "section-box"
+    "section-about";
+}
+
+.section-main {
+    background-image: url(../images/rainbow-vortex.png);
+    background-repeat:  no-repeat;
+    width: 100%;
+    height: 800px;
+}
+
+.section-main h2 {
+    color: white;
+    position: absolute;
+    top: 280px;
+    left: 650px;
+}
+
+.section-main p {
+    color: white;
+    position: absolute;
+    top: 360px;
+    left: 800px;
+}
+
+.section-main a {
+    background-color: #eea54e;
+    padding: 10px 30px;
+    border-radius: 10px;
+    position: absolute;
+    top: 400px;
+    left: 820px;
+}
+
+.section-box {
+    background-color: white;
+    width: 100%;
+    height: 300px;
+    margin: 15px 0px;
+}
+
+.section-box h2 {
+    padding: 10px 10px;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: row nowrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.service-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    text-align: center;
+}
+
+.service-card h3 {
+    margin-bottom: 10px;
+    color: #fff;
+    background-color: #234477;
+    width: 100%;
+    padding: 10px;
+    height: 80px;
+    border-radius: 10px 10px 0px 0px;
+}
+/* ameen dababat */
+.service-card p {
+    padding: 10px;
+    font-size: 14px;
+    color: #000;
+    height: 80px;
+}
+
+.section-about {
+    background-color: white;
+    width: 100%;
+    padding: 10px 0px;
+    margin: 15px 0px;
+}
+
+.section-about h2 {
+    padding: 10px 10px;
+}
+
+.section-about img {
+    width: 400px;
+    height: 300px;
+    padding: 10px 10px;
+    float: left;
+    margin-right: 20px;
+}
+
+.section-about h3 {
+    padding: 10px 10px;
+    color: #234477;
+}
+
+.section-about p {
+    padding: 10px 10px;
+    font-size: 16px;
+    color: #000;
+}
